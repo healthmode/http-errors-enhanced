@@ -2,12 +2,10 @@
 
 [![Version](https://img.shields.io/npm/v/http-errors-enhanced.svg)](https://npm.im/http-errors-enhanced)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/http-errors-enhanced)](https://libraries.io/npm/http-errors-enhanced)
-[![Build](https://github.com/ShogunPanda/http-errors-enhanced/workflows/CI/badge.svg)](https://github.com/ShogunPanda/http-errors-enhanced/actions?query=workflow%3ACI)
-[![Coverage](https://img.shields.io/codecov/c/gh/ShogunPanda/http-errors-enhanced?token=jxElZm8DEK)](https://codecov.io/gh/ShogunPanda/http-errors-enhanced)
+[![Build](https://github.com/healthmode/http-errors-enhanced/workflows/CI/badge.svg)](https://github.com/healthmode/http-errors-enhanced/actions?query=workflow%3ACI)
+[![Coverage](https://img.shields.io/codecov/c/gh/healthmode/http-errors-enhanced?token=jxElZm8DEK)](https://codecov.io/gh/healthmode/http-errors-enhanced)
 
 Create HTTP errors with additional properties for any framework.
-
-http://sw.cowtech.it/http-errors-enhanced
 
 ## Installation
 
@@ -213,15 +211,9 @@ console.log(JSON.stringify(notFoundErrorSchema))
 */
 ```
 
-## ESM Only
-
-This package only supports to be directly imported in a ESM context.
-
-For informations on how to use it in a CommonJS context, please check [this page](https://gist.github.com/ShogunPanda/fe98fd23d77cdfb918010dbc42f4504d).
-
 ## Credits
 
-This project has been heavily inspired by [http-errors](https://github.com/jshttp/http-errors), of which is a indipendent and unrelated project.
+This project is a fork of https://github.com/ShogunPanda/http-errors-enhanced with commonjs support.
 
 ## Contributing to http-errors-enhanced
 
@@ -231,9 +223,3 @@ This project has been heavily inspired by [http-errors](https://github.com/jshtt
 - Start a feature/bugfix branch.
 - Commit and push until you are happy with your contribution.
 - Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-
-## Copyright
-
-Copyright (C) 2020 and above Shogun (shogun@cowtech.it).
-
-Licensed under the ISC license, which can be found at https://choosealicense.com/licenses/isc.
